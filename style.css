@@ -1,0 +1,130 @@
+/*
+Theme Name: Custom WordPress Theme
+Author: JPT
+Description: A custom WordPress theme with two sidebars for widgets.
+Version: 1.0
+Tags: wordpress
+*/
+
+html {
+    background:white;
+    }
+
+    body {
+      color:black;
+    }
+    
+    .page-header {
+        padding-bottom: 9px;
+        margin: 40px 0 20px;
+        border-bottom: 0px solid #eee;
+    }
+    
+    h1 {
+    color:lightskyblue;
+    }
+
+    h1 small {
+    color: LightGreen;
+    }
+    
+    h2 {
+        font-weight: bold;
+    color:LightGreen;
+    }
+    
+    h3 {
+        font-weight: bold;
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    
+    .redlink{
+    color: darkred;
+    
+    }
+    
+    .headerlarge
+    {
+        color:lightskyblue;
+    }
+    
+    .jumbotron {
+    padding-top: 0px;
+        background-color: white;
+    
+    }
+    .jumbotron .container {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    background-color: white;
+    }
+    
+    #header-ht {
+    background: LightGreen;
+    }
+    
+    .navbar {
+        margin-bottom: 0px;}
+    
+    .navbar-default {
+        background-color: lightskyblue;
+        border-color: lightskyblue;
+        color: white;
+    }
+    
+    .navbar-default .navbar-brand {
+        color: white;
+    }
+    .navbar-default .navbar-brand:hover {
+        color: lightgray;
+    }
+    
+    ul li a {
+        color: darkred;
+        font-weight:bold;
+    }
+
+    ul li a:hover {
+        color: darkred;
+        font-weight:bold;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-weight:bold;
+    }
+    
+    .navbar-default .navbar-nav>li>a:hover {
+        color: lightgrey
+    }
+    
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: lightskyblue;
+    }
+    
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #eee;
+        border-color: lightskyblue;
+    }
+    
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: lightgray;
+        background-color: lightskyblue;
+    }
+    
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: lightskyblue;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar:focus, .navbar-default .navbar-toggle .icon-bar:hover {
+        background-color: white;
+    }
