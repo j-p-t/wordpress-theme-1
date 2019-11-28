@@ -18,18 +18,18 @@ function theme_add_widgets() {
     register_sidebar(array(
       'id' => 'left-sidebar',
       'name' => 'Left Sidebar',
-      'before_widget' => '<div class = "widgetizedArea">',
+      'before_widget' => '<br><div class = "widgetizedArea">',
       'after_widget' => '</div>',
-      'before_title' => '<h3>',
-      'after_title' => '</h3>',
+      'before_title' => '<h3><small><strong>',
+      'after_title' => '</h3></small></strong>',
     ));
     register_sidebar(array(
       'id' => 'right-sidebar',
       'name' => 'Right Sidebar',
-      'before_widget' => '<div class = "widgetizedArea">',
+      'before_widget' => '<br><div class = "widgetizedArea">',
       'after_widget' => '</div>',
-      'before_title' => '<h3>',
-      'after_title' => '</h3>',
+      'before_title' => '<h3><small><strong>',
+      'after_title' => '</h3></small></strong>',
     ));
 }
 
